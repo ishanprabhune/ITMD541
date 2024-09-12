@@ -7,9 +7,9 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.6;
-  background-color: #e0e0e0; 
-  color: #333;
-  text-align: center; /* Center all text */
+  background-color: #F5F5F5; 
+  color: #333333; 
+  text-align: center;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background: #333;
+  background: #008080; 
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -31,18 +31,31 @@ header h1 {
 }
 
 .photo {
-  display: block; 
+  display: block;
   margin: 0 auto;
-  border-radius: 20%; 
+  border-radius: 15%;
+}
+
+.ph {
+  border-radius: 10px;
 }
 
 h2 {
-  color: #333;
+  color: #00796B; 
   margin-bottom: 10px;
 }
 
 p {
   font-size: 1.2em;
+}
+
+a {
+  color: #FF6F61; 
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .gallery {
@@ -63,58 +76,48 @@ p {
   height: 150px;
 }
 
+.experience {
+  background-color: #E0E0E0;
+  padding: 20px;
+}
+
+.experience img {
+  border-radius: 10px;
+}
+
+.experience .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-1, .experience-2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.experience-1 h2, .experience-2 h2 {
+  flex: 1;
+  margin-right: 20px;
+  color: #00796B; 
+}
+
+.experience-1 img, .experience-2 img {
+  margin-right: 20px;
+}
+
+.experience-1 p, .experience-2 p {
+  flex: 2;
+}
+
 footer {
-  background: #333;
+  background: #008080; 
   color: #fff;
   text-align: center;
   padding: 10px 0;
   margin-top: 20px;
 }
 
-.ubuntu-light {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.ubuntu-regular {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ubuntu-medium {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.ubuntu-bold {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.ubuntu-light-italic {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.ubuntu-regular-italic {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.ubuntu-medium-italic {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.ubuntu-bold-italic {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-style: italic;
+.linkedin-link {
+  color: #FF6F61; 
 }
